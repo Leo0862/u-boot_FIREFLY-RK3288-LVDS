@@ -47,7 +47,7 @@ void set_back_to_bootrom_dnl_flag(void)
  * some special boards.
  */
 #define KEY_DOWN_MIN_VAL	0
-#define KEY_DOWN_MAX_VAL	30
+#define KEY_DOWN_MAX_VAL	80
 
 __weak int rockchip_dnl_key_pressed(void)
 {
